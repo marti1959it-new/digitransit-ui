@@ -80,7 +80,7 @@ COPY --from=builder /opt/digitransit-ui/ .
 ARG WEBPACK_DEVTOOL=''
 ENV \
   # App specific settings to override when the image is run \
-  PORT=8080 \
+  PORT=8089 \
   API_URL='' \
   MAP_URL='' \
   OTP_URL='' \
